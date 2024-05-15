@@ -1,0 +1,10 @@
+﻿  mySimpleSTL.cpp
+D:\Code_Side\Project\mySimpleSTL\mySimpleSTL\deque.h(318,13): warning C4018: '<': signed/unsigned mismatch
+D:\Code_Side\Project\mySimpleSTL\mySimpleSTL\deque.h(315,2): message : while compiling class template member function 'mySimpleSTL::deque_iterator<T,T &,T *> mySimpleSTL::deque<T>::erase(mySimpleSTL::deque_iterator<T,T &,T *>)'
+          with
+          [
+              T=int
+          ]
+D:\Code_Side\Project\mySimpleSTL\mySimpleSTL\mySimpleSTL.cpp(131,14): message : see the first reference to 'mySimpleSTL::deque<int>::erase' in 'test_deque'
+D:\Code_Side\Project\mySimpleSTL\mySimpleSTL\mySimpleSTL.cpp(124,29): message : see reference to class template instantiation 'mySimpleSTL::deque<int>' being compiled
+  mySimpleSTL.vcxproj -> D:\Code_Side\Project\mySimpleSTL\x64\Debug\mySimpleSTL.exe
